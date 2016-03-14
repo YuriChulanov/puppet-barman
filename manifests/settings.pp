@@ -53,8 +53,6 @@ class barman::settings (
   $logfile                 = '/var/log/barman/barman.log',
   $compression             = 'gzip',
   $immediate_checkpoint    = false,
-  $pre_backup_script       = false,
-  $post_backup_script      = false,
   $pre_archive_script      = false,
   $post_archive_script     = false,
   $basebackup_retry_times  = false,
