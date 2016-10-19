@@ -113,6 +113,7 @@ define barman::server (
   $wal_retention_policy    = $::barman::wal_retention_policy,
   $reuse_backup            = $::barman::reuse_backup,
   $custom_lines            = $::barman::custom_lines,
+  $archiver                = $::barman::archiver,
 ) {
 
   # check if 'description' has been correctly configured
