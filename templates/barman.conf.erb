@@ -25,6 +25,9 @@ post_archive_script = <%= @post_archive_script %>
 <%- if @immediate_checkpoint != false -%>
 immediate_checkpoint = <%= @immediate_checkpoint %>
 <%- end -%>
+<%- if @archiver != false -%>
+archiver = <%= @archiver %>
+<%- end -%>
 <%- if @basebackup_retry_times != false -%>
 basebackup_retry_times = <%= @basebackup_retry_times %>
 <%- end -%>
