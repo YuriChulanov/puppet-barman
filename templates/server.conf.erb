@@ -10,6 +10,9 @@ conninfo = <%= @conninfo %>
 <%- if @compression -%>
 compression = <%= @compression %>
 <%- end -%>
+<%- if @archiver -%>
+archiver = <%= @archiver %>
+<%- end -%>
 <%- if @pre_backup_script != false -%>
 pre_backup_script = <%= @pre_backup_script %>
 <%- end -%>
