@@ -114,6 +114,7 @@ define barman::server (
   $reuse_backup            = $::barman::reuse_backup,
   $custom_lines            = $::barman::custom_lines,
   $archiver                = $::barman::archiver,
+  $bandwidth_limit         = $::barman::bandwidth_limit,
 ) {
 
   # check if 'description' has been correctly configured
