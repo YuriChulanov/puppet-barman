@@ -71,6 +71,7 @@ class barman::settings (
   $host_group              = 'global',
   $manage_package_repo     = false,
   $archiver                = false,
+  $bandwidth_limit         = false,
 ) {
 
 }
