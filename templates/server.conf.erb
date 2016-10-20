@@ -13,6 +13,9 @@ compression = <%= @compression %>
 <%- if @archiver -%>
 archiver = <%= @archiver %>
 <%- end -%>
+<%- if @bandwidth_limit -%>
+bandwidth_limit = <%= @bandwidth_limit %>
+<%- end -%>
 <%- if @pre_backup_script != false -%>
 pre_backup_script = <%= @pre_backup_script %>
 <%- end -%>
